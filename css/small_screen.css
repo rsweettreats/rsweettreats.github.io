@@ -70,3 +70,27 @@ article {
     padding: 10px;
     margin-bottom: 10px;
 }
+
+
+/* style de flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    max-width: 400px;
+}
+
+.header, .row {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.header {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.cell {
+    flex: 1;
+    padding: 10px;
+}
