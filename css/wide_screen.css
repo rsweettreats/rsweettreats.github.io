@@ -4,21 +4,18 @@ body, * {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white;
     padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 main {
@@ -38,12 +35,16 @@ aside {
 
 footer {
     background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #E0E0E0;
 }
 
 article {

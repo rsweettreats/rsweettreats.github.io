@@ -1,10 +1,11 @@
 https://static.vecteezy.com/system/resources/previews/023/232/270/non_2x/mix-icon-for-recipe-vector.jpg = book
 
-https://www.zzorganic.com/wp-content/uploads/icons/gluten-free-icon.png = gluten free
+https://t3.ftcdn.net/jpg/01/97/75/36/360_F_197753658_35FkEcUiTbmhHcqUym9z3PX0JA03M71G.jpg = gluten free
 
-https://algemeen.verstegen.nl/wp-content/uploads/sites/10/2023/11/Vegan-logo-800x600-png-TINY.png = vegan
+https://t4.ftcdn.net/jpg/05/78/89/55/360_F_578895578_RFFzUziYT06TLDouh1pL5IQ3kBIaO1qV.png = vegan
 
 https://www.novachocolate.co.za/wp-content/uploads/2020/10/dairy-free-nova-chocolate_049204920_28810.png = dairy free
 
-https://farmgirlcereal.com/cdn/shop/files/FarmGirl_Home_SugarFree_Image_2048x2048_8b500474-3174-4eac-b183-9ed97f65cc5c.png?crop=center&height=2048&v=1697196730&width=2048 = sugar free
+https://cdn.vectorstock.com/i/500p/38/37/sugar-free-label-cubes-vector-20783837.jpg = sugar free
 
+= vegetarian

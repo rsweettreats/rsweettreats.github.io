@@ -3,22 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Recipe Book</title>
+        <title>Recipe book</title>
         <link rel="stylesheet" media="screen and (min-width: 800px)" href="./css/wide_screen.css">
         <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/small_screen.css">
     </head>
     <body>
         <header>
-            <h1>Rashi's Recipe Book</h1>
+            <h1>RASHI'S RECIPE BOOK</h1>
+            <br>
             <nav>
-                <h2>Contents:</h2>
-                <ul>
-                    <li><a href="#1">Chocolate chip cookies</a></li>
-                    <li><a href="#2">Devil's food cake</a></li>
-                    <li><a href="#3">Pancakes</a></li>
-                    <li><a href="#4">Tiramisu</a></li>
-                    <li><a href="#5">Blueberry muffins</a></li>
-                </ul>
+                <a href="#1">Chocolate chip cookies</a>
+                <a href="#2">Devil's food cake</a>
+                <a href="#3">Pancakes</a>
+                <a href="#4">Tiramisu</a>
+                <a href="#5">Blueberry muffins</a>
             </nav>
         </header>
         <main>
@@ -33,56 +31,63 @@
                             <li>Time: 35 min</li>
                             <li>Serves: 30</li>
                         </ul>
-                        <table border="2">
-                            <thead>
-                                <tr>
-                                    <th>Ingredients</th>
-                                    <th>Quantity</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Salted, softened butter</td>
-                                    <td>150g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Light brown muscovado sugar</td>
-                                    <td>80g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Granulated sugar</td>
-                                    <td>80g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Vanilla extract</td>
-                                    <td>2 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Large egg</td>
-                                    <td>1</td> 
-                                </tr>
-                                <tr>
-                                    <td>Plain flour</td>
-                                    <td>225g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Bicarbonate of soda</td>
-                                    <td>½ tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Salt</td>
-                                    <td>¼ tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>chocolate chips or chunks</td>
-                                    <td>200g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Walnuts</td>
-                                    <td>25g</td> 
-                                </tr>
-                            </tbody>
-                        </table>
+                        <!-- hecho con flexbox -->
+                        <div class="container">
+                            <div class="header">
+                                <div class="cell">Ingredients</div>
+                                <div class="cell">Quantity</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Salted, softened butter</div>
+                                <div class="cell">150g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Light brown muscovado sugar</div>
+                                <div class="cell">80g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Granulated sugar</div>
+                                <div class="cell">80g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Vanilla extract</div>
+                                <div class="cell">2 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Large egg</div>
+                                <div class="cell">1</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Plain flour</div>
+                                <div class="cell">225g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Bicarbonate of soda</div>
+                                <div class="cell">½ tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Salt</div>
+                                <div class="cell">¼ tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Chocolate chips or chunks</div>
+                                <div class="cell">200g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Walnuts</div>
+                                <div class="cell">25g</div>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <strong>Step 1:</strong> Heat the oven to 190C/fan170C/gas 5 and line two baking sheets with non-stick baking paper.</br></br>
@@ -108,68 +113,79 @@
                             <li>Time: 240 min</li>
                             <li>Serves: 8</li>
                         </ul>
-                        <table border="2">
-                            <thead>
-                                <tr>
-                                    <th>Ingredients</th>
-                                    <th>Quantity</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Milk chocolate, finely chopped</td>
-                                    <td>425g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Double cream</td>
-                                    <td>350g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Granulated sugar</td>
-                                    <td>220g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Vanilla extract</td>
-                                    <td>2 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Large egg</td>
-                                    <td>3</td> 
-                                </tr>
-                                <tr>
-                                    <td>Plain flour</td>
-                                    <td>300g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Bicarbonate of soda</td>
-                                    <td>1 and 1/2 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Salt</td>
-                                    <td>3/4 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Baking powder</td>
-                                    <td>3/4 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Unsalted butter</td>
-                                    <td>180g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Cocoa powder</td>
-                                    <td>75g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Water</td>
-                                    <td>295g</td> 
-                                </tr>
-                                <tr>
-                                    <td>Milk</td>
-                                    <td>60ml</td> 
-                                </tr>
-                            </tbody>
-                        </table>
+                        <!-- hecho con flexbox -->
+                        <div class="container">
+                            <div class="header">
+                                <div class="cell">Ingredients</div>
+                                <div class="cell">Quantity</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Milk chocolate, finely chopped</div>
+                                <div class="cell">425g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Double cream</div>
+                                <div class="cell">350g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Granulated sugar</div>
+                                <div class="cell">220g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Vanilla extract</div>
+                                <div class="cell">2 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Large egg</div>
+                                <div class="cell">3</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Plain flour</div>
+                                <div class="cell">300g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Bicarbonate of soda</div>
+                                <div class="cell">1 and 1/2 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Salt</div>
+                                <div class="cell">3/4 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Baking powder</div>
+                                <div class="cell">3/4 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Unsalted butter</div>
+                                <div class="cell">180g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Cocoa powder</div>
+                                <div class="cell">75g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Water</div>
+                                <div class="cell">295g</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Milk</div>
+                                <div class="cell">60ml</div>
+                            </div>
+                        
+                        </div>
                     </div>
                     <div>
                         <strong>Step 1:</strong> Put the chocolate in a large heatproof bowl. In a small saucepan, bring the cream to a boil. Pour the cream over the chocolate, move the bowl gently to let the cream settle. Set the mixture aside until softened, about 4 minutes.</br></br>
@@ -197,48 +213,54 @@
                             <li>Time: 20 min</li>
                             <li>Serves: 8</li>
                         </ul>
-                        <table border="2">
-                            <thead>
-                                <tr>
-                                    <th>Ingredients</th>
-                                    <th>Quantity</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>All-purpose flour</td>
-                                    <td>1 ½ cups</td> 
-                                </tr>
-                                <tr>
-                                    <td>White sugar</td>
-                                    <td>1 tbsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Vanilla extract</td>
-                                    <td>1 tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Large egg</td>
-                                    <td>1</td> 
-                                </tr>
-                                <tr>
-                                    <td>Salt</td>
-                                    <td>¼ tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Baking powder</td>
-                                    <td>3 ½ tsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Melted butter</td>
-                                    <td>3 tbsp</td> 
-                                </tr>
-                                <tr>
-                                    <td>Milk</td>
-                                    <td>1 ¼ cups</td> 
-                                </tr>
-                            </tbody>
-                        </table>
+                        <!-- hecho con flexbox -->
+                        <div class="container">
+                            <div class="header">
+                                <div class="cell">Ingredients</div>
+                                <div class="cell">Quantity</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">All-purpose flour</div>
+                                <div class="cell">1 ½ cups</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">White sugar</div>
+                                <div class="cell">1 tbsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Vanilla extract</div>
+                                <div class="cell">1 tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Large egg</div>
+                                <div class="cell">1</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Salt</div>
+                                <div class="cell">¼ tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Baking powder</div>
+                                <div class="cell">3 ½ tsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Melted butter</div>
+                                <div class="cell">3 tbsp</div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="cell">Milk</div>
+                                <div class="cell">1 ¼ cups</div>
+                            </div>
+                        
+                        </div>
                     </div>
                     <div>
                         <strong>Step 1:</strong> Sift the dry ingredients together.</br></br>
@@ -405,7 +427,8 @@
                         <em>Source: <a href="https://www.allrecipes.com/recipe/6865/to-die-for-blueberry-muffins/">Allrecipes</a></em>
                     </div>
                 </article>
-            </section>    
+            </section>
+            <br><br>    
         </main>
         <footer>
             <p>Copyright &copy; 2024 Rashi's Recipe Book. All rights reserved.</p>

@@ -1,0 +1,88 @@
+/* Estilo general del body para el modo oscuro */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Estilo principal para el contenido */
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo para la sección de la política de privacidad */
+section {
+    background-color: #b6b6b6;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px #00000033;
+}
+
+/* Títulos secundarios */
+h2 {
+    font-size: 20px;
+    color: #555555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Estilo para listas no ordenadas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Enfatizar texto en negrita */
+strong {
+    color: #505050;
+}
+
+/* Estilo para enlaces */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Resaltar último párrafo */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #E0E0E0;
+}

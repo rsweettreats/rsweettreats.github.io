@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscription form</title>
+    <link rel="stylesheet" href="./css/style_form.css">
+</head>
+<body>
+
+    <header>
+        <h1>SUSCRIPCION FORM</h1>
+    </header>
+
+    <main>
+        <div id="titulo">
+            Suscribite para recibir las últimas recetas directamente en tu bandeja de entrada.<br>¡No te pierdas ninguna delicia!
+        </div>
+        <br>
+        <section>
+        <form action="#" method="post">
+            <lable for="iname">Nombre:</lable>
+            <input type="text" id="iname" name="nombre" required>
+            <br><br>
+            <lable for="isurname">Apellidos:</lable>
+            <input type="text" id="isurname" name="apellido">
+            <br><br>
+            <lable for="email">Correo:</lable>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="repeatPassword">Repeat password:</label>
+            <input type="password" id="repeatPassword" name="repeatPassword" required>
+            <br><br>
+            <label id="terms_container">
+                <input type="checkbox" id="terms" name="terms" required>
+                I have read and accept the <a href="privacy_policy.html">privacy policy</a>
+            </label>
+            <br><br>
+            <button type="submit" id="submit">Subscribe</button>
+            <br><br>
+        </form>
+        </section>
+    </main>
+    <br><br><br><br>
+    <footer>
+        <p>Copyright &copy; 2024 Rashi's Recipe Book. All rights reserved.</p>
+    </footer>
+
+</body>
+<script type="text/javascript" src="./js/script.js"></script>
+</html>
